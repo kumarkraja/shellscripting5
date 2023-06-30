@@ -1,0 +1,12 @@
+
+#!/bin/bash
+echo "addition is command line args"
+
+echo "addition " = `( expr $1 + $2 )`
+
+# using read command provide input at run time 
+  echo "enter  A value "
+  read A
+  echo "Enter B Value "
+  read B 
+   
